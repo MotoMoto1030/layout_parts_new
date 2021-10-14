@@ -1,5 +1,100 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q5{
+height: 500px;
+width: 500px;
+background-color: #ECF1F2;
+margin: auto;
+position: relative;
+}
 
+.square{
+height: 100px;
+width: 100px;
+text-align: center;
+}
+
+.skin{
+background-color: #ffefd3;
+top: 40px;
+margin-left: 200px;
+position: absolute;
+z-index: 1;
+}
+
+.blue{
+background-color: #7084de;
+margin-top: 120px;
+margin-left: 280px;
+position: absolute;
+z-index: 2;
+}
+
+.whiteblue{
+background-color: #d0ecea;
+margin-top: 200px;
+margin-left: 360px;
+position: absolute;
+z-index: 3;
+}
+
+.black{
+background-color: #8b7a5e;
+margin-top: 280px;
+margin-left: 280px;
+position: absolute;
+z-index: 4;
+}
+
+.skyblue{
+background-color: #9fd6d2;
+margin-top: 360px;
+margin-left: 200px;
+position: absolute;
+z-index: 5;
+}
+
+.white{
+background-color: #fffee4;
+margin-top: 280px;
+margin-left: 120px;
+position: absolute;
+z-index: 6;
+}
+
+.gold{
+background-color: #deae70;
+margin-top: 200px;
+margin-left: 40px;
+position: absolute;
+z-index: 7;
+}
+
+.pink{
+background-color: #de70cf;
+margin-top: 120px;
+margin-left: 120px;
+position: absolute;
+z-index: 8;
+}
+
+.pink::before{
+position: absolute;
+content: "";
+background-color: #ffefd3;
+height: 20px;
+width: 20px;
+bottom: 80px;
+left: 80px;
+}
+
+.navyblue{
+position: fixed;
+background-color: #2b69a3;
+top: 0px;
+left: 0px;
+margin-top: 10px;
+margin-left: 10px;
+}
 /* 回答はここに書いてね */
