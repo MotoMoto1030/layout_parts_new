@@ -17,10 +17,14 @@ padding: 20px;
 
 .top-container > div{
 display: table-cell;
+text-align: center;
+padding: 20px;
 }
 
 .bottom-container > div{
 display: table-cell;
+text-align: center;
+padding: 20px;
 }
 
 .skin{
