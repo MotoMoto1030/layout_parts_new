@@ -2,40 +2,39 @@
 
 /* 回答はここに書いてね */
 .clearfix::after{
-content: "";
-display: block;
-clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .main{
-width: 940px;
-height: 480px;
-background-color: #eff3f4;
-margin: auto;
+  width: 900px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blue-box:first-child{
+  margin-left: 0;
 }
 
 .blue-box{
-width: 270px;
-height: 440px;
-background-color: #3274ae;
-margin-top: 20px;
-margin-left: 20px;
-float: left;
+  width: 230px;
+  background-color: #3274ae;
+  margin-left: 20px;
+  padding: 20px;
+  float: left;
 }
 
 .text-box{
-box-sizing: border-box;
-width: 230px;
-height: 400px;
-border: solid #022336 10px;
-background-color: #eaf4ff;
-margin-top: 20px;
-margin-left: 20px;
-padding: 20px;
+  box-sizing: border-box;
+  border: solid #022336 10px;
+  background-color: #eaf4ff;
+  padding: 20px;
 }
 
 .text{
-line-height: 16px;
-font-size: 16px;
+  line-height: 16px;
+  font-size: 16px;
 }
 /* 回答はここに書いてね */
