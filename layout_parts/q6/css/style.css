@@ -1,68 +1,68 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.text-align-box{
-display: inline-block;
-background-color: #e6f2ff;
-height: 30px;
-width: 90px;
-text-align: center;
-margin-left: 100px;
-padding-top: 10px;
+.q6__box.text-align{
+  display: inline-block;
+  text-align: center;
+}
+
+.intext-align-box{
+  display: inline-block;
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
 }
 
 .margin-box{
-background-color: #e6f2ff;
-height: 30px;
-width: 90px;
-margin: 0 auto;
-padding-top: 10px;
-text-align: center;
+  background-color: #e6f2ff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  width: 90px;
 }
 
-.q6--around{
-display: flex;
-justify-content: center;
-align-items: center;
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .table-box{
-display: table-cell;
-display: inline-block;
-background-color: #fff;
-vertical-align: middle;
-padding: 10px;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
 }
 
 .flex-box{
-display: inline-block;
-background-color: #fff;
-padding: 10px;
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px;
 }
 
-.is-stable{
-position: relative;
+.q6--position .q6__box{
+  position: relative;
 }
 
-.is-flexible{
-position: relative;
+.q6__box.is-stable .stable{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
-.left{
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-padding: 3px;
-}
-
-.right{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-margin: auto;
+.q6__box.is-flexible .flexible{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
 }
 /* 回答はここに書いてね */
