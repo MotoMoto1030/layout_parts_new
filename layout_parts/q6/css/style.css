@@ -6,14 +6,14 @@
   text-align: center;
 }
 
-.intext-align-box{
+.intext-align-box {
   display: inline-block;
   background-color: #e6f2ff;
   width: 90px;
   padding: 10px 0;
 }
 
-.margin-box{
+.margin-box {
   background-color: #e6f2ff;
   margin: 0 auto;
   text-align: center;
@@ -21,35 +21,42 @@
   width: 90px;
 }
 
-.flex{
+.q6--bigbox {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ecf1f2;
+}
+
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.table{
+.table {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.table-box{
+.table-box {
   display: inline-block;
   background-color: #fff;
   padding: 10px;
 }
 
-.flex-box{
+.flex-box {
   display: inline-block;
   background-color: #fff;
   padding: 10px;
 }
 
-.q6--position .q6__box{
+.q6--position .q6__box {
   position: relative;
 }
 
-.q6__box.is-stable .stable{
+.q6__box.is-stable .stable {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,7 +65,7 @@
   margin: auto;
 }
 
-.q6__box.is-flexible .flexible{
+.q6__box.is-flexible .flexible {
   position: absolute;
   top: 50%;
   left: 50%;
