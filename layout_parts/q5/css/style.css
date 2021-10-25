@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5-contents{
+.q5-contents {
   height: 500px;
   width: 500px;
   background-color: #ECF1F2;
@@ -9,85 +9,87 @@
   position: relative;
 }
 
-.square{
+.square {
   height: 100px;
   width: 100px;
   text-align: center;
   line-height: 100px;
   font-size: 30px;
+  font-weight: bold;
   position: absolute;
 }
 
-.skin{
+.skin {
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
-  z-index: 1;
+  z-index: 10;
 }
 
-.blue{
+.blue {
   background-color: #7084de;
   top: 120px;
   right: 120px;
-  z-index: 2;
+  z-index: 20;
 }
 
-.whiteblue{
+.whiteblue {
   background-color: #d0ecea;
   top: 200px;
   right: 40px;
-  z-index: 3;
+  z-index: 30;
 }
 
-.black{
+.black {
   background-color: #8b7a5e;
   top: 280px;
   right: 120px;
-  z-index: 4;
+  z-index: 40;
 }
 
-.skyblue{
+.skyblue {
   background-color: #9fd6d2;
   top: 360px;
   left: 200px;
-  z-index: 5;
+  z-index: 50;
 }
 
-.white{
+.white {
   background-color: #fffee4;
   top: 280px;
   left: 120px;
-  z-index: 6;
+  z-index: 60;
 }
 
-.gold{
+.gold {
   background-color: #deae70;
   top: 200px;
   left: 40px;
-  z-index: 7;
+  z-index: 70;
 }
 
-.pink{
+.pink {
   background-color: #de70cf;
   top: 120px;
   left: 120px;
-  z-index: 8;
+  z-index: 80;
 }
 
-.pink::before{
+.pink::before {
   position: absolute;
   content: "";
   background-color: #ffefd3;
   height: 20px;
   width: 20px;
-  bottom: 80px;
-  left: 80px;
+  top: 0;
+  right: 0;
 }
 
-.navyblue{
+.navyblue {
   position: fixed;
   background-color: #2b69a3;
   top: 10px;
   left: 10px;
+  z-index: 90;
 }
 /* 回答はここに書いてね */
