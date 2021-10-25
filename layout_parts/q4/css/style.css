@@ -1,59 +1,51 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.main-container{
+.main-container {
   background-color: #eff3f4;
   box-sizing: border-box;
   padding: 20px;
 }
 
-.top-container{
-  display: table;
-  width: 100%;
+.long-container:first-child {
   margin-top: 0;
 }
 
-.bottom-container{
+.long-container {
   display: table;
   width: 100%;
   margin-top: 20px;
 }
 
-.top-container > div{
+.long-container > .box {
   display: table-cell;
   text-align: center;
   padding: 20px;
 }
 
-.bottom-container > div{
-  display: table-cell;
-  text-align: center;
-  padding: 20px;
-}
-
-.skin{
+.skin {
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.pink{
+.pink {
   background-color: #e0abd9;
 }
 
-.blue{
+.blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.yellow{
+.yellow {
   background-color: #e5d32e;
 }
 
-.red{
+.red {
   background-color: #ec8f9a;
 }
 
-.green{
+.green {
   background-color: #8fdcad;
   width: 500px;
 }
