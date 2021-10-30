@@ -9,11 +9,15 @@
   border: solid 5px #222;
 }
 
-.round-box::before {
+.round-box::before,
+.round-box::after {
   position: absolute;
   content: "";
   top: 100%;
   left: 5%;
+}
+
+.round-box::before {
   border: solid 17px transparent;
   border-top: 17px solid #fff;
   z-index: 2;
@@ -21,10 +25,6 @@
 }
 
 .round-box::after {
-  position: absolute;
-  content: "";
-  top: 100%;
-  left: 5%;
   border: solid 24px transparent;
   border-top: 24px solid #222;
   z-index: 1;
